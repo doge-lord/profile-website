@@ -1,0 +1,256 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Home",
+      "about": "About Me",
+      "resume": "Resume",
+      "contact": "Contact"
+    },
+    "button": {
+      "hire_me": "Hire me",
+      "about_me": "About Me",
+      "download_cv": "Download CV"
+    },
+    "label": {
+      "github": "Github",
+      "linkedin": "LinkedIn",
+      "email": "Email",
+      "phone": "Phone",
+      "open_menu": "Open menu",
+      "close_menu": "Close menu",
+      "show_more": "Show More",
+      "back_to_top": "Back to Top"
+    },
+    "footer": {
+      "message": "Made with ❤️ by $t(profile.full_name)",
+      "copyright": "Copyright © 2022"
+    },
+    "profile": {
+      "full_name": "John Doe"
+    }
+  },
+  "home": {
+    "hero_banner": {
+      "hello": "Hi there!",
+      "i": "I<0></0>",
+      "intro_phrase_1": " am {{name, uppercase}}.",
+      "intro_phrase_2": " am a MASOCHIST.",
+      "intro_phrase_3": " create great things.",
+      "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+    },
+    "about": {
+      "title": "About Me",
+      "who_am_i": "Who am I?",
+      "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae nunc sed velit dignissim sodales ut.",
+      "skills": "Skills",
+      "knowledge": "Knowledge",
+      "personal_information": [
+        {
+          "label": "Name",
+          "value": "$t(profile.full_name)"
+        },
+        {
+          "label": "Email",
+          "value": "{{email}}"
+        },
+        {
+          "label": "Age",
+          "value": "69"
+        },
+        {
+          "label": "From",
+          "value": "Promised Neverland"
+        },
+        {
+          "label": "Hobbies",
+          "value": "scrabble"
+        },
+        {
+          "label": "Languages",
+          "value": "English, Filipino"
+        }
+      ],
+      "skill_list": [
+        {
+          "label": "Lorem ipsum",
+          "value": 96
+        },
+        {
+          "label": "Hac habitasse",
+          "value": 95
+        },
+        {
+          "label": "Fermentum",
+          "value": 95
+        },
+        {
+          "label": "Arcu",
+          "value": 89
+        },
+        {
+          "label": "Vestibulum",
+          "value": 92
+        }
+      ],
+      "knowledge_list": [
+        "Call",
+        "Insidious",
+        "View",
+        "Pigs",
+        "Wealthy",
+        "Dam",
+        "Common",
+        "High",
+        "Afterthought",
+        "Lame",
+        "Crow",
+        "Fabulous",
+        "Strengthen",
+        "Hill",
+        "Classy",
+        "Sky",
+        "Pour",
+        "Plate",
+        "Celery",
+        "Large",
+        "Befitting",
+        "Normal",
+        "Listen",
+        "Stiff",
+        "Venomous",
+        "Fearful",
+        "Allow",
+        "Belligerent",
+        "Attack",
+        "Famous",
+        "Youthful",
+        "Flaky",
+        "Birds",
+        "Match",
+        "Panicky"
+      ]
+    },
+    "resume": {
+      "title": "My Resume",
+      "experience": "Experience",
+      "education": "Education",
+      "trainings": "Trainings",
+      "experience_list": [
+        {
+          "company": "Google Inc.",
+          "company_address": "Manila, PH",
+          "company_duration": "6 years 9 months",
+          "title": "Project Manager",
+          "date_period": "Jun 2016 - Present",
+          "main_responsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "responsibilities": [
+            "Tristique magna sit amet purus. Risus nullam eget felis eget nunc lobortis mattis aliquam.",
+            "Pulvinar neque laoreet suspendisse interdum consectetur libero. Feugiat nisl pretium fusce id.",
+            "Fermentum dui faucibus in ornare quam viverra orci sagittis. Interdum consectetur libero id faucibus nisl tincidunt.",
+            "Scelerisque mauris pellentesque pulvinar pellentesque habitant. Consequat interdum varius sit amet."
+          ]
+        },
+        {
+          "title": "Project Lead",
+          "date_period": "Jun 2015 - Jun 2016",
+          "main_responsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "responsibilities": [
+            "Tristique magna sit amet purus. Risus nullam eget felis eget nunc lobortis mattis aliquam.",
+            "Pulvinar neque laoreet suspendisse interdum consectetur libero. Feugiat nisl pretium fusce id.",
+            "Fermentum dui faucibus in ornare quam viverra orci sagittis. Interdum consectetur libero id faucibus nisl tincidunt.",
+            "Scelerisque mauris pellentesque pulvinar pellentesque habitant. Consequat interdum varius sit amet."
+          ]
+        },
+        {
+          "title": "Senior Frontend Engineer",
+          "date_period": "Jul 2014 - Jun 2015",
+          "main_responsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum morbi blandit cursus risus at ultrices mi tempus.",
+          "responsibilities": [
+            "Tristique magna sit amet purus. Risus nullam eget felis eget nunc lobortis mattis aliquam.",
+            "Pulvinar neque laoreet suspendisse interdum consectetur libero. Feugiat nisl pretium fusce id.",
+            "Fermentum dui faucibus in ornare quam viverra orci sagittis. Interdum consectetur libero id faucibus nisl tincidunt.",
+            "Scelerisque mauris pellentesque pulvinar pellentesque habitant. Consequat interdum varius sit amet."
+          ]
+        },
+        {
+          "company": "Evil Corp.",
+          "company_address": "Bangkok, TH",
+          "company_duration": "3 years 1 months",
+          "title": "Senior Software Engineer",
+          "date_period": "Jun 2013 - Jul 2014",
+          "main_responsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "responsibilities": [
+            "Tristique magna sit amet purus. Risus nullam eget felis eget nunc lobortis mattis aliquam.",
+            "Pulvinar neque laoreet suspendisse interdum consectetur libero. Feugiat nisl pretium fusce id.",
+            "Fermentum dui faucibus in ornare quam viverra orci sagittis. Interdum consectetur libero id faucibus nisl tincidunt.",
+            "Scelerisque mauris pellentesque pulvinar pellentesque habitant. Consequat interdum varius sit amet."
+          ]
+        },
+        {
+          "title": "Fullstack Developer",
+          "date_period": "Jun 2012 - Jun 2013",
+          "main_responsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "responsibilities": [
+            "Tristique magna sit amet purus. Risus nullam eget felis eget nunc lobortis mattis aliquam.",
+            "Pulvinar neque laoreet suspendisse interdum consectetur libero. Feugiat nisl pretium fusce id.",
+            "Fermentum dui faucibus in ornare quam viverra orci sagittis. Interdum consectetur libero id faucibus nisl tincidunt.",
+            "Scelerisque mauris pellentesque pulvinar pellentesque habitant. Consequat interdum varius sit amet."
+          ]
+        },
+        {
+          "title": "Software Engineer",
+          "date_period": "Jun 2011 - Jun 2012",
+          "location": "Tokyo, JP",
+          "main_responsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "responsibilities": [
+            "Tristique magna sit amet purus. Risus nullam eget felis eget nunc lobortis mattis aliquam.",
+            "Pulvinar neque laoreet suspendisse interdum consectetur libero. Feugiat nisl pretium fusce id.",
+            "Fermentum dui faucibus in ornare quam viverra orci sagittis. Interdum consectetur libero id faucibus nisl tincidunt.",
+            "Scelerisque mauris pellentesque pulvinar pellentesque habitant. Consequat interdum varius sit amet."
+          ]
+        },
+        {
+          "title": "Associate Software Engineer",
+          "date_period": "Jun 2010 - Jun 2011",
+          "main_responsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "responsibilities": [
+            "Tristique magna sit amet purus. Risus nullam eget felis eget nunc lobortis mattis aliquam.",
+            "Pulvinar neque laoreet suspendisse interdum consectetur libero. Feugiat nisl pretium fusce id.",
+            "Fermentum dui faucibus in ornare quam viverra orci sagittis. Interdum consectetur libero id faucibus nisl tincidunt.",
+            "Scelerisque mauris pellentesque pulvinar pellentesque habitant. Consequat interdum varius sit amet."
+          ]
+        }
+      ],
+      "education_list": [
+        {
+          "title": "Bachelor’s Degree - Computer Science",
+          "school": "Wanbol University",
+          "location": "Quezon City, PH",
+          "date_period": "2000 - 2010"
+        }
+      ],
+      "training_list": [
+        {
+          "title": "AWS for Dummies",
+          "organization": "Lorem ipsum dolor sit amet, consectetur",
+          "issued_date": "Jun 2012",
+          "ref": "Ref: 12345-6969"
+        },
+        {
+          "title": "React.js for Dummies",
+          "organization": "Lorem ipsum dolor sit amet, consectetur",
+          "issued_date": "Jul 2011",
+          "ref": "Ref: 12345-420"
+        },
+        {
+          "title": "Eloquent Javascript",
+          "organization": "Lorem ipsum dolor sit amet",
+          "issued_date": "Aug 2010"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Let's Talk!"
+    }
+  }
+}
