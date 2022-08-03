@@ -22,11 +22,13 @@
       "back_to_top": "Back to Top"
     },
     "footer": {
-      "message": "Made with ❤️ by $t(profile.full_name)",
-      "copyright": "Copyright © 2022"
+      "message_1": "Made with ❤️ by $t(profile.full_name)",
+      "message_2": "Source code is available <0>here</0>",
+      "copyright": "Copyright © 2022",
+      "source_code_link": "https://github.com/doge-lord/profile-website"
     },
     "profile": {
-      "full_name": "John Doe"
+      "full_name": "John Doge"
     }
   },
   "home": {

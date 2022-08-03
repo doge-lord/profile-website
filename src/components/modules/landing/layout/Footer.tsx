@@ -3,9 +3,10 @@ import Typography from "@mui/material/Typography";
 import { styled, useTheme } from "@mui/material/styles";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import Stack from "@mui/material/Stack";
 import IconButton from "@mui/material/IconButton";
+import Link from "@mui/material/Link";
 
 import { links } from "../constants";
 
@@ -30,7 +31,20 @@ const Footer: FC = () => {
             <Typography variant="subtitle1" sx={{ mb: 1 }}>
               {t("footer.copyright")}
             </Typography>
-            <Typography variant="subtitle1">{t("footer.message")}</Typography>
+            <Typography variant="subtitle1">{t("footer.message_1")}</Typography>
+            <Typography variant="subtitle2">
+              <Trans
+                i18nKey="footer.message_2"
+                components={[
+                  <Link
+                    key={0}
+                    href={t("footer.source_code_link")}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />,
+                ]}
+              />
+            </Typography>
             <Stack direction="row" spacing={1} display="inline-block">
               {links.map(([key, label, href, icon]) => (
                 <IconButton
