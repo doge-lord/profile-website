@@ -13,7 +13,6 @@ const themeOptions: ThemeOptions = {
     },
     background: {
       default: grey[900],
-      // paper: `rgba(${grey[900]}, 0.9)`,
       alternate: grey[800],
     },
   },
